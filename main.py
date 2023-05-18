@@ -873,7 +873,7 @@ async def get_photo(message):
                 await bot.send_photo(chat_id=i, photo=file_id, caption=caption)
                 state = 0
             except Exception as e:
-                print('сырный тут')
+                print('')
     else:
         await bot.delete_message(message.from_user.id, message.message_id)
 #Записать на экскурсию
